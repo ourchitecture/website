@@ -1,0 +1,7 @@
+{
+  "name": "ourchitecture",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
