@@ -7,6 +7,18 @@ const routes: Routes = [
   {
     path: '',
     component: TechnologyPage
+  },
+  {
+    path: 'channels',
+    loadChildren: () => import('./channels/channels.module').then( m => m.ChannelsPageModule)
+  },
+  {
+    path: 'experiences',
+    loadChildren: () => import('./experiences/experiences.module').then( m => m.ExperiencesPageModule)
+  },
+  {
+    path: 'capabilities',
+    loadChildren: () => import('./capabilities/capabilities.module').then( m => m.CapabilitiesPageModule)
   }
 ];
 
