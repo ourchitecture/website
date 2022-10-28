@@ -6,6 +6,8 @@ import { IonicModule } from '@ionic/angular';
 
 import { CapabilitiesPageRoutingModule } from './capabilities-routing.module';
 
+import { FooterComponentModule } from '../../../components/page/footer/footer.module';
+
 import { CapabilitiesPage } from './capabilities.page';
 
 @NgModule({
@@ -13,7 +15,8 @@ import { CapabilitiesPage } from './capabilities.page';
     CommonModule,
     FormsModule,
     IonicModule,
-    CapabilitiesPageRoutingModule
+    CapabilitiesPageRoutingModule,
+    FooterComponentModule,
   ],
   declarations: [CapabilitiesPage]
 })

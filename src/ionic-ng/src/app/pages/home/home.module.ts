@@ -4,15 +4,17 @@ import { IonicModule } from '@ionic/angular';
 import { FormsModule } from '@angular/forms';
 import { HomePage } from './home.page';
 
-import { HomePageRoutingModule } from './home-routing.module';
+import { FooterComponentModule } from '../../components/page/footer/footer.module';
 
+import { HomePageRoutingModule } from './home-routing.module';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    HomePageRoutingModule
+    HomePageRoutingModule,
+    FooterComponentModule,
   ],
   declarations: [HomePage]
 })

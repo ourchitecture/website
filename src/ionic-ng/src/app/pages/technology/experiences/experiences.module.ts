@@ -6,6 +6,8 @@ import { IonicModule } from '@ionic/angular';
 
 import { ExperiencesPageRoutingModule } from './experiences-routing.module';
 
+import { FooterComponentModule } from '../../../components/page/footer/footer.module';
+
 import { ExperiencesPage } from './experiences.page';
 
 @NgModule({
@@ -13,7 +15,8 @@ import { ExperiencesPage } from './experiences.page';
     CommonModule,
     FormsModule,
     IonicModule,
-    ExperiencesPageRoutingModule
+    ExperiencesPageRoutingModule,
+    FooterComponentModule,
   ],
   declarations: [ExperiencesPage]
 })

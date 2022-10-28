@@ -6,6 +6,8 @@ import { IonicModule } from '@ionic/angular';
 
 import { ProcessPageRoutingModule } from './process-routing.module';
 
+import { FooterComponentModule } from '../../components/page/footer/footer.module';
+
 import { ProcessPage } from './process.page';
 
 @NgModule({
@@ -13,7 +15,8 @@ import { ProcessPage } from './process.page';
     CommonModule,
     FormsModule,
     IonicModule,
-    ProcessPageRoutingModule
+    ProcessPageRoutingModule,
+    FooterComponentModule,
   ],
   declarations: [ProcessPage]
 })

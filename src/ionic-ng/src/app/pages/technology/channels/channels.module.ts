@@ -6,6 +6,8 @@ import { IonicModule } from '@ionic/angular';
 
 import { ChannelsPageRoutingModule } from './channels-routing.module';
 
+import { FooterComponentModule } from '../../../components/page/footer/footer.module';
+
 import { ChannelsPage } from './channels.page';
 
 @NgModule({
@@ -13,7 +15,8 @@ import { ChannelsPage } from './channels.page';
     CommonModule,
     FormsModule,
     IonicModule,
-    ChannelsPageRoutingModule
+    ChannelsPageRoutingModule,
+    FooterComponentModule,
   ],
   declarations: [ChannelsPage]
 })

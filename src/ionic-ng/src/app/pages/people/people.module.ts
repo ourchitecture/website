@@ -6,6 +6,8 @@ import { IonicModule } from '@ionic/angular';
 
 import { PeoplePageRoutingModule } from './people-routing.module';
 
+import { FooterComponentModule } from '../../components/page/footer/footer.module';
+
 import { PeoplePage } from './people.page';
 
 @NgModule({
@@ -13,7 +15,8 @@ import { PeoplePage } from './people.page';
     CommonModule,
     FormsModule,
     IonicModule,
-    PeoplePageRoutingModule
+    PeoplePageRoutingModule,
+    FooterComponentModule,
   ],
   declarations: [PeoplePage]
 })
