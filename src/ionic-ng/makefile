@@ -7,7 +7,7 @@ all: install check
 install:
 	@export CI=1 \
 	&& yarn build \
-    --configuration=ci
+  && cp ./www/index.html ./www/404.html
 
 .PHONY: check
 check:

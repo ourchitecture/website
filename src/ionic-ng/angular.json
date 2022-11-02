@@ -20,6 +20,11 @@
             "tsConfig": "tsconfig.app.json",
             "assets": [
               {
+                "glob": "**/CNAME",
+                "input": "src/",
+                "output": "./"
+              },
+              {
                 "glob": "**/*",
                 "input": "src/assets",
                 "output": "assets"
