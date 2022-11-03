@@ -5,6 +5,7 @@
   "private": true,
   "author": "Ourchitecture",
   "homepage": "https://ourchitecture.io/",
+  "license": "UNLICENSED",
   "scripts": {
     "ionic": "ionic",
     "ng": "ng",
