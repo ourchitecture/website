@@ -4,6 +4,10 @@
 all:
 	@cd ./src/ionic-ng/ && "$(MAKE)" $@
 
+.PHONY: init
+init:
+	@cd ./src/ionic-ng/ && "$(MAKE)" $@
+
 .PHONY: install
 install:
 	@cd ./src/ionic-ng/ && "$(MAKE)" $@

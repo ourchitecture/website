@@ -1,7 +1,12 @@
 .DEFAULT_GOAL:=all
 
 .PHONY: all
-all: install check
+all: init install check
+
+.PHONY: init
+init:
+	@export CI=1 \
+	&& yarn install
 
 .PHONY: install
 install:
